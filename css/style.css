@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* element selectors */
+body {
+    font-family: 'Open Sans', arial;
+    background-color: #D8F9F8;
+}
+
+h4 {
+    padding: 10px 8px 10px 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border: none;
+    background-color: #008D88 ;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 16px 10px 16px;
+    font-size: 17px;
+    font-family: 'Open Sans', arial;
+    margin: 4px;
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    background-color: #5BE6E1;
+}
+
+/* class selectors */
+/* displays the timer on the right */
+.navRight {
+    float: right;
+}
+
+/* displays the Highscore link on the left */
+.navLeft {
+    float: left;
+}
+
+/* ID selectors */
+/* sets the parameters for the navbar */
+#nav {
+    display: block;
+    background-color: #BAF7F4;
+    display: inline-block;
+    width: 98vw;
+    border: 3px solid #008D88;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+/* positions text in the body */
+#body {
+    text-align: center;
+    padding: 12vh;
+}
+
+/* positions the container the quiz is in */
+#quiz {
+    text-align: center;
+}
